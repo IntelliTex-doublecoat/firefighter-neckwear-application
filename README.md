@@ -1,0 +1,3 @@
+Here shows some files, including CAD files and code that we used to build the firefighter heat warning neckwear.
+- _code_ folder has the Arduino code for plotter visualization (_demonstration.ino_) and code for embedded wearable neckwear (_embedded heat warn.ino_), where the neckwear will buzz and vibrate on detecting high temperature.
+- _design files_ folder has the dxf file for the temperature sensing patch.
