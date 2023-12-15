@@ -6,7 +6,7 @@ float minThreshold = 1000;
 void setup() {
   pinMode(A0, INPUT);
   pinMode(A1, OUTPUT);
-  pinMode(A2, INPUT);
+  pinMode(A2, OUTPUT);
   Serial.begin(115200);
 }
 
