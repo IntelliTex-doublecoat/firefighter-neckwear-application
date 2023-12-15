@@ -3,13 +3,13 @@ const float alpha = 0.6;
 float sensorValFiltered = 0.0;
 
 void setup() {
-  pinMode(A3, INPUT);
+  pinMode(A0, INPUT);
   Serial.begin(115200);
 }
 
 void loop() {
   // Read sensor data
-  int analogValue = analogRead(A3);
+  int analogValue = analogRead(A0);
 
   // Filtering the data
   sensorValFiltered = alpha * analogValue + (1 - alpha) * sensorValFiltered;
